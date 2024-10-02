@@ -1,0 +1,23 @@
+Group 1:
+-Team:
+-Region bounds:
+
+Group 2:
+-Team:
+-Region bounds:
+
+Group 3:
+-Team:
+-Region bounds:
+
+Group 4:
+-Team:
+-Region bounds:
+
+Group 5:
+-Team:
+-Region bounds:
+
+Group 6:
+-Team:
+-Region bounds:
