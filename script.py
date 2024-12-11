@@ -19,11 +19,11 @@ valid_data = data[['latitude', 'longitude', 'Encryption']].dropna()
 
 # Grouping data based on Encryption type
 grouped_data = {
-    "WPA3": valid_data[valid_data['Encryption'].str.lower() == 'wpa3'][['latitude', 'longitude']].values.tolist(),
     "Open": valid_data[valid_data['Encryption'].str.lower() == 'none'][['latitude', 'longitude']].values.tolist(),
     "WEP": valid_data[valid_data['Encryption'].str.lower() == 'wep'][['latitude', 'longitude']].values.tolist(),
     "WPA": valid_data[valid_data['Encryption'].str.lower() == 'wpa'][['latitude', 'longitude']].values.tolist(),
     "WPA2": valid_data[valid_data['Encryption'].str.lower() == 'wpa2'][['latitude', 'longitude']].values.tolist(),
+    "WPA3": valid_data[valid_data['Encryption'].str.lower() == 'wpa3'][['latitude', 'longitude']].values.tolist(),
     "Unknown": valid_data[valid_data['Encryption'].str.lower() == 'unknown'][['latitude', 'longitude']].values.tolist()
 }
 
